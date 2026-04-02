@@ -1,15 +1,29 @@
-# csv2js
+# Csv2Js
 
-a converter CSV to JavaScript src
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## usage
+Open data repository. Columns: name, value.
 
-```sh
-deno -A https://code4fukui.github.io/csv2js/csv2.js -A test.csv
+## Demo
+
+https://code4fukui.github.io/csv2js/
+
+## Features
+
+- Open data CSV with columns: name, value
+
+## Data
+
+Columns: name, value
+
+## Installation & Setup
+
+No build step required. Clone and open in a browser or use with Deno:
+
+```bash
+git clone https://github.com/code4fukui/csv2js.git
 ```
 
-```js
-import data from "./test.csv.js";
+## License
 
-console.log(data);
-```
+MIT License — see [LICENSE](LICENSE).
