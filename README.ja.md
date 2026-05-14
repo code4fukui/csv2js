@@ -22,7 +22,7 @@ CSVファイルをJavaScript ESモジュールに変換するシンプルなDeno
 URL経由でスクリプトを実行し、ローカルのCSVファイルを引数として渡します。`-A` フラグは、入力ファイルの読み取りと出力ファイルの書き込みに必要な権限をスクリプトに付与します。
 
 ```sh
-deno run -A https://code4fukui.github.io/csv2js/csv2.js your-data.csv
+deno run -A https://github.com/code4fukui/csv2js your-data.csv
 ```
 
 このコマンドは、同じディレクトリに `your-data.csv.js` という新しいファイルを作成します。
@@ -50,7 +50,7 @@ b,555
 次のコマンドを実行します。
 
 ```sh
-deno run -A https://code4fukui.github.io/csv2js/csv2.js test.csv
+deno run -A https://github.com/code4fukui/csv2js test.csv
 ```
 
 これにより、以下のファイル `test.csv.js` が生成されます。

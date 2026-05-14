@@ -24,7 +24,7 @@ This command-line tool reads a CSV file, parses its content, and generates a new
 Execute the script via its URL, passing your local CSV file as an argument. The `-A` flag grants the script necessary permissions to read your input file and write the output file.
 
 ```sh
-deno run -A https://code4fukui.github.io/csv2js/csv2.js your-data.csv
+deno run -A https://github.com/code4fukui/csv2js your-data.csv
 ```
 
 This command will create a new file named `your-data.csv.js` in the same directory.
@@ -52,7 +52,7 @@ b,555
 Run this command:
 
 ```sh
-deno run -A https://code4fukui.github.io/csv2js/csv2.js test.csv
+deno run -A https://github.com/code4fukui/csv2js test.csv
 ```
 
 It will generate the following file, `test.csv.js`:
